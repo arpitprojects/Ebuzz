@@ -5,7 +5,7 @@ This Web Application shows the various categories like Movies, Games, Music and 
 ## Try the Application
 
 ```
-http://ebuzz.herokuapp.com/
+http://ebuzzapp.herokuapp.com/
 ```
 
 ### Prerequisites
@@ -32,7 +32,7 @@ Run index.html
 Or Use below link to view:
 
 ```
-http://ebuzz.herokuapp.com/
+http://ebuzzapp.herokuapp.com/
 ```
 
 
@@ -56,7 +56,7 @@ Web Application is built on, HTML, CSS 3, JavaScript , Angular.js@1.6 , Material
 
 ## Codes can be found online at:
 
-https://github.com/arpitpractice/ebuzz
+https://github.com/arpitprojects/ebuzz
 
 ## Authors
 
