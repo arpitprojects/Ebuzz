@@ -1,0 +1,145 @@
+[
+    {
+        "games_id" : 1,
+    "name" : "Cricket",
+    "desc" : "Cricket is a bat-and-ball game played between two teams of eleven players on a cricket field, at the centre of which is a rectangular 22-yard-long pitch with a.",
+    "release_date" : "1889",
+    "img"  : "../vendors/img/cric.png",
+    "type_name" : "Horror",
+    "player" : [
+        {
+           "actor_name" : "Virat Kohli",
+           "age" : 28,
+           "img" : "../vendors/img/vir.png",
+           "type" : "Batsman"
+
+        },
+            {
+           "actor_name" : "Dale Steyn",
+           "age" : 32,
+           "img" : "../vendors/img/dale.png",
+           "type" : "Bowler"
+
+        }
+    ]
+} , {
+        "games_id" : 2,
+    "name" : "Football",
+    "desc" : "Football is a family of team sports that involve, to varying degrees, kicking a ball with the foot to score a goal. Unqualified, the word football is understood to refer .",
+    "release_date" : "1850",
+    "img"  : "../vendors/img/foot.png",
+    "type_name" : "Action",
+    "player" : [
+        {
+           "actor_name" : "Chistinao Ronaldo",
+           "age" : 35,
+           "img" : "../vendors/img/ronal.png",
+           "type" : "Freestyle"
+
+        },
+            {
+           "actor_name" : "Lionel Messi",
+           "age" : 36,
+           "img" : "../vendors/img/messi.png",
+           "type" : "Striker"
+
+        }
+    ]
+},
+     {
+        "games_id" : 3,
+    "name" : "Tennis",
+    "desc" : "Tennis is a racket sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). Each player .",
+    "release_date" : "1950",
+    "img"  : "../vendors/img/tennis.png",
+    "type_name" : "Horror",
+    "player" : [
+        {
+           "actor_name" : "Maria Sharapova",
+           "age" : 32,
+           "img" : "../vendors/img/maria.png",
+           "type" : "player"
+
+        },
+            {
+           "actor_name" : "Sania Mirza",
+           "age" : 36,
+           "img" : "../vendors/img/sania.png",
+           "type" : "player"
+
+        }
+    ]
+},
+     {
+        "games_id" : 4,
+    "name" : "Billiards",
+    "desc" : "Cue sports (sometimes written cuesports), also known as billiard sports, are a wide variety of games of skill generally played with a cue stick which is used to .",
+    "release_date" : "1928",
+    "img"  : "../vendors/img/bill.png",
+    "type_name" : "Horror",
+    "player" : [
+        {
+           "actor_name" : "Pankaj Advani",
+           "age" : 32,
+           "img" : "../vendors/img/pan.png",
+           "type" : "hard rock"
+
+        },
+            {
+           "actor_name" : "Jasmin Ouschan",
+           "age" : 36,
+           "img" : "../vendors/img/kate.png",
+           "type" : "hard rock"
+
+        }
+    ]
+}, 
+     {
+        "games_id" : 5,
+    "name" : "Hockey",
+    "desc" : "Hockey is a family of sports in which two teams play against each other by trying to maneuver a ball or a puck into the opponent's goal using a hockey stick.",
+    "release_date" : "1900",
+    "img"  : "../vendors/img/hock.png",
+    "type_name" : "Horror",
+    "player" : [
+        {
+           "actor_name" : "DhyanChandra",
+           "age" : 32,
+           "img" : "../vendors/img/chand.png",
+           "type" : "hard rock"
+
+        },
+            {
+           "actor_name" : "Dhanraj Pillay",
+           "age" : 36,
+           "img" : "../vendors/img/pill.png",
+           "type" : "hard rock"
+
+        }
+    ]
+},
+  {
+        "games_id" : 6,
+    "name" : "Badminton",
+    "desc" : "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the .",
+    "release_date" : "1923",
+    "img"  : "../vendors/img/badi.png",
+    "type_name" : "Action",
+    "player" : [
+        {
+           "actor_name" : "Sania Nehwal",
+           "age" : 28,
+           "img" : "../vendors/img/nehwal.png",
+           "type" : "hard rock"
+
+        },
+            {
+           "actor_name" : "P.v sindhu",
+           "age" : 36,
+           "img" : "../vendors/img/sin.png",
+           "type" : "hard rock"
+
+        }
+    ]
+}
+]

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Ebuzz : Front End Challenge
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Ebuzz Challenge" />
+    <meta property="og:site_name" content="Ebuzz Front End Challenge" />
+    <meta property="og:url" content="http://" />
+    <meta property="og:description" content="Audition Front End App" />
+    <meta property="og:type" content="website" />
+    <meta property="article:author" content="https://www.facebook.com/mjarpitanand" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <!--End of all the Meta tags-->
+    <link rel="shortcut icon" href="http://www.pedagoge.com/wp-content/themes/pedagoge_theme/assets/img/fav_icon_logo_orb_small.png"
+        type="image/x-icon">
+    <!--All icons-->
+
+    <!--End of the all icons-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!--Matrial icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" />
+    <!-- All css-->
+    <link rel="stylesheet" href="resources/css/init.css" />
+    <link rel="stylesheet" href="resources/css/grid.css" />
+    <link rel="stylesheet" href="resources/css/main.css" />
+    <link rel="stylesheet" href="resources/css/menu.css" />
+    <!--End of All css-->
+
+    <!-- All angular dependecy-->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+    <!-- All Js-->
+    <!--All the ajs codes-->
+    <script src="core/module.js"></script>
+    <script src="core/directive.js"></script>
+    <script src="core/route.js"></script>
+    <script src="core/controller.js"></script>
+    <script src="core/services.js"></script>
+    <!-- End of the ajs codes-->
+    <script src="resources/js/main.js"></script>
+    <script src="resources/js/init.js"></script>
+    <script src="resources/js/menu.js"></script>
+    <script src="resources/js/script.js"></script>
+    <!--End of All Js-->
+</head>
+
+<body ng-app="ebuzz" id="body">
+    <!--Radial Menu-->
+    <!--PreLoader Html-->
+        <div id="loader-wrapper">
+            <div id="loader"></div>        
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <!--End of the preloader html-->
+    <div class="base" id="base">
+        <div class="menu" id="menu">
+            <div class="icon">
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-music" aria-hidden="true"></i>
+            <i class="fa fa-futbol-o" aria-hidden="true"></i>
+        </div>
+        <div class="section">
+            <div class="cover1">
+                <div class="cover2">
+                    <a class="content" href="#/music"></a>
+                </div>
+            </div>
+        </div>
+        <a class="section-static top" href="#/movies"></a>
+        <a class="section-static bottom" href="#/games"></a>
+    </div>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Ebuzz</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+          <i class="material-icons">search</i>
+        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" placeholder="Filter results by typing anything!" name="sample" ng-model="search"
+                                id="fixed-header-drawer-exp">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Ebuzz</span>
+            <nav class="mdl-navigation">
+                <div class="side-nav-category">
+                    <p class="sidenav-title">Categories</p>
+                    <br />
+                    <ul>
+                        <li><a ng-href="#/music">Music</a></li>
+                        <li><a ng-href="#/games">Games</a></li>
+                        <li><a ng-href="#/movies">Movies</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+
+            <ng-view class="view-animate">
+
+            </ng-view>
+        </main>
+    </div>
+    <!--End of the most main Wrapper-->
+    <br /><br />
+
+
+    <script>
+        var menu = document.getElementById('menu');
+        var base = document.getElementById('base');
+        menu.addEventListener('click', function () {
+            base.classList.toggle('close');
+        });
+        window.onload = function () {
+            setTimeout(function () {
+                document.getElementById('body').className = 'loaded';
+            }, 200);
+        }
+    </script>
+
+</body>
+
+</html>

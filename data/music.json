@@ -1,0 +1,182 @@
+[
+    {
+        "album_id" : 1,
+    "album" : "Back in Black",
+    "desc" : "Cause I'm back / Yes, I'm back / Well, I'm back / Yes, I'm back…",
+    "release_date" : "1980",
+    "img"  : "../vendors/img/back.png",
+    "singer_name" : "Ac/Dc",
+    "songs" : [
+        {
+           "song_name" : "Back in Black",
+           "duration" : 4.03,
+           "img" : "../vendors/img/menin.png",
+           "genre" : "hard rock"
+
+        },
+            {
+           "song_name" : "Back in - Shakira",
+           "duration" : 4.16,
+           "img" : "../vendors/img/sak.png",
+           "genre" : "hard rock"
+
+        }
+    ]
+},
+{
+    "album_id" : 2,
+    "album" : "Bad Out Of Hell",
+    "desc" : " Bat Out of Hell is the second studio album and the major-label debut by American rock singer Meat Loaf, as well as being his first collaboration with composer Jim Steinman and producer Todd Rundgren, ",
+    "release_date" : "1977",
+    "img"  : "../vendors/img/bad.png",
+    "singer_name" : "Meat Loaf",
+    "songs" : [
+        {
+           "song_name" : "Two Out Of Three Not Bad",
+           "duration" : 3.23,
+           "img" : "../vendors/img/meatloaf.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "Bad Out Of Hell",
+           "duration" : 4.16,
+           "img" : "../vendors/img/two.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "Paradise By The Dashboard Light",
+           "duration" : 3.38,
+           "img" : "../vendors/img/para.png",
+           "genre" : "world"
+
+        }
+        ]
+    },
+    {
+        "album_id" : 3,
+    "album" : "Slippery When Wet",
+    "desc" : "Slippery When Wet is the third studio album by American rock band Bon Jovi. It was released on August 18, 1986 by Mercury Records in North America and Vertigo Records internationally.",
+    "release_date" : "1986",
+    "img"  : "../vendors/img/slip.png",
+    "singer_name" : "Bon Jovi",
+    "songs" : [
+        {
+           "song_name" : "Brown Rang",
+           "duration" : 3.23,
+           "img" : "../vendors/img/lone.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "Angreji Beat",
+           "duration" : 4.16,
+           "img" : "../vendors/img/death.png",
+           "genre" : "world"
+
+        }
+        ]
+    },
+    {
+        "album_id" : 4,
+    "album" : "The Shape Of Jazz",
+    "desc" : "International Villager is an album by Punjabi music artist and producer Honey Singh. It was released on November 11, 2011.",
+    "release_date" : "2011",
+    "img"  : "../vendors/img/shape.png",
+    "singer_name" : "Ornette Coleman",
+    "songs" : [
+        {
+           "song_name" : "Lonely",
+           "duration" : 3.23,
+           "img" : "../vendors/img/lone.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "Eventually",
+           "duration" : 4.16,
+           "img" : "../vendors/img/orn.png",
+           "genre" : "world"
+
+        },
+        {
+           "song_name" : "Peace",
+           "duration" : 3.32,
+           "img" : "../vendors/img/peace.png",
+           "genre" : "world"
+
+            }
+        ]
+    }
+    ,
+    {
+        "album_id" : 5,
+    "album" : "Internatonal Vilager",
+    "desc" : "International Villager is an album by Punjabi music artist and producer Honey Singh. It was released on November 11, 2011.",
+    "release_date" : "2011",
+    "img"  : "../vendors/img/i_v.png",
+    "singer_name" : "Yo Yo Honey Singh",
+    "songs" : [
+        {
+           "song_name" : "Brown Rang",
+           "duration" : 3.23,
+           "img" : "../vendors/img/yo.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "Angreji Beat",
+           "duration" : 4.16,
+           "img" : "../vendors/img/beat.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "Goliyan",
+           "duration" : 3.38,
+           "img" : "../vendors/img/goli.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "Dope Sope",
+           "duration" : 3.32,
+           "img" : "../vendors/img/back.png",
+           "genre" : "world"
+
+            }
+        ]
+    },
+    {
+        "album_id" : 6,
+    "album" : "A Night At the Opera",
+    "desc" : "A Night at the Opera is the fourth studio album by the British rock band Queen, released on 21 November 1975 by EMI Records in the United Kingdom and by Elektra Records in the United States.",
+    "release_date" : "2011",
+    "img"  : "../vendors/img/opera.png",
+    "singer_name" : "Queen",
+    "songs" : [
+        {
+           "song_name" : "Death of the Two Legs",
+           "duration" : 3.23,
+           "img" : "../vendors/img/death.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "I am in Love with my car!",
+           "duration" : 4.16,
+           "img" : "../vendors/img/car.png",
+           "genre" : "world"
+
+        },
+            {
+           "song_name" : "Lazing on Sunday Afternoon",
+           "duration" : 3.38,
+           "img" : "../vendors/img/laz.png",
+           "genre" : "world"
+
+        }
+        ]
+    }
+]

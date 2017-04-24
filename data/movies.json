@@ -1,0 +1,145 @@
+[
+    {
+        "movie_id" : 1,
+    "name" : "Wrong Turn",
+    "desc" : "Chris and a group of five friends are left stranded deep in the middle of the woods after their cars collide. As they venture deeper into the woods, they face an uncertain and bloodcurdling fate.",
+    "release_date" : "2006",
+    "img"  : "../vendors/img/wt.png",
+    "type_name" : "Horror",
+    "actor" : [
+        {
+           "actor_name" : "Eliza Dushku",
+           "age" : 32,
+           "img" : "../vendors/img/eliza.png",
+           "genre" : "hard rock"
+
+        },
+            {
+           "actor_name" : "Desmond Harrington",
+           "age" : 36,
+           "img" : "../vendors/img/des.png",
+           "genre" : "hard rock"
+
+        }
+    ]
+} , {
+        "movie_id" : 2,
+    "name" : "Dark Knights",
+    "desc" : "Bane, an imposing terrorist, attacks Gotham City and disrupts its eight-year-long period of peace. This forces Bruce Wayne to come out of hiding and don the cape and cowl of Batman again.",
+    "release_date" : "2012",
+    "img"  : "../vendors/img/dark_kni.png",
+    "type_name" : "Action",
+    "actor" : [
+        {
+           "actor_name" : "Tom Hardy",
+           "age" : 35,
+           "img" : "../vendors/img/tom.png",
+           "genre" : "hard rock"
+
+        },
+            {
+           "actor_name" : "Desmond Harrington",
+           "age" : 36,
+           "img" : "../vendors/img/bale.png",
+           "genre" : "hard rock"
+
+        }
+    ]
+},
+     {
+        "movie_id" : 3,
+    "name" : "Annabelle",
+    "desc" : "John and Mia are attacked by a couple who are worshippers of Satan. However, before the cops kill them, the couple use a doll as a conduit to make John and Mia's life miserable.",
+    "release_date" : "2014",
+    "img"  : "../vendors/img/anna.png",
+    "type_name" : "Horror",
+    "actor" : [
+        {
+           "actor_name" : "Annabelle Wallis",
+           "age" : 32,
+           "img" : "../vendors/img/belle.png",
+           "genre" : "hard rock"
+
+        },
+            {
+           "actor_name" : "Ward Horton",
+           "age" : 36,
+           "img" : "../vendors/img/ward.png",
+           "genre" : "hard rock"
+
+        }
+    ]
+},
+     {
+        "movie_id" : 4,
+    "name" : "Van Helsing",
+    "desc" : "Van Helsing, a monster hunter, is sent to Transylvania in order to prevent Count Dracula from realising his evil motives.",
+    "release_date" : "2004",
+    "img"  : "../vendors/img/ven.png",
+    "type_name" : "Horror",
+    "actor" : [
+        {
+           "actor_name" : "Hugh Jackman",
+           "age" : 32,
+           "img" : "../vendors/img/hugh.png",
+           "genre" : "hard rock"
+
+        },
+            {
+           "actor_name" : "Kate Benkinsale",
+           "age" : 36,
+           "img" : "../vendors/img/kate.png",
+           "genre" : "hard rock"
+
+        }
+    ]
+}, 
+     {
+        "movie_id" : 5,
+    "name" : "Saw",
+    "desc" : "Two men awaken to find themselves on the opposite sides of a dead body, each with specific instructions to kill the other or face consequences. These two are the latest victims of the Jigsaw Killer.",
+    "release_date" : "2004",
+    "img"  : "../vendors/img/saw.png",
+    "type_name" : "Horror",
+    "actor" : [
+        {
+           "actor_name" : "Tobin Bell",
+           "age" : 32,
+           "img" : "../vendors/img/tobin.png",
+           "genre" : "hard rock"
+
+        },
+            {
+           "actor_name" : "Cary Elwes",
+           "age" : 36,
+           "img" : "../vendors/img/cary.png",
+           "genre" : "hard rock"
+
+        }
+    ]
+},
+  {
+        "movie_id" : 6,
+    "name" : "Commando 2",
+    "desc" : "A skilled soldier (Vidyut Jamwal) embarks on a mission to eradicate black money that's been siphoned to banks abroad.",
+    "release_date" : "2017",
+    "img"  : "../vendors/img/comm.png",
+    "type_name" : "Action",
+    "actor" : [
+        {
+           "actor_name" : "Vidyut J",
+           "age" : 28,
+           "img" : "../vendors/img/vid.png",
+           "genre" : "hard rock"
+
+        },
+            {
+           "actor_name" : "Adah Sharma",
+           "age" : 36,
+           "img" : "../vendors/img/adah.png",
+           "genre" : "hard rock"
+
+        }
+    ]
+}
+]

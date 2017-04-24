@@ -1,0 +1,180 @@
+body , html{
+    background-color:#fafafa;
+
+}
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container:after,
+.container-fluid:after{
+    clear:both;
+}
+.mdl-layout-title{
+    font-family: 'Dosis' , sans-serif !important;
+}
+
+#card{
+    width:200px;
+}
+.side-nav-category{
+    text-align:center;
+}
+.side-nav-category ul li a{
+    color:#000;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    margin-bottom:5%;
+}
+.side-nav-category ul li{
+    margin-bottom: 10px;
+}
+.sidenav-title{
+    font-size: 20px;
+    font-family: 'Dosis'  ,sans-serif;
+    font-weight:600;
+
+}
+#side-content{
+        font-family: 'Dosis' , sans-serif;
+        font-size:16px;
+        font-weight:500;
+        color:#575757;
+       
+    }
+    .album-category {
+        position: relative;
+        top: 57px;
+        padding-left:6%;
+        float:left;
+    }
+    .clearfix{
+        clear:both;
+        display: block;
+    }
+    #card-stack{
+         width: 160px;
+        height: 160px;
+       
+    }
+    
+    .album-category-title {
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Dosis', sans-serif;
+        text-align: left;
+    }
+    
+    .album-category-date {
+        font-weight: 600;
+        font-family: 'Dosis', sans-serif;
+        text-align: left;
+        position: relative;
+        top: -15px;
+    }
+    
+    #image-card {
+        position: relative;
+        top: 0px;
+        left: -17px;
+        height: 180px;
+        object-fit: cover;
+        width:125%;
+        object-position: 1px 45px;
+    }
+    
+    .title-category {
+        font-size: 18px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #757575;
+    }
+    
+    .demo-card-square.mdl-card {
+        width: 160px;
+        height: 160px;
+        margin-top: 48%;
+    }
+    
+    .demo-card-square>.mdl-card__title {
+        color: #fff;
+        /*put design background here*/
+    }
+    input{
+        font-family: 'Dosis' !important;
+        font-size: 16px;
+        letter-spacing: 1.1px !important;
+    }
+    #fixed-header-drawer-exp{
+        border-bottom:2px solid #fff;
+        width:500px;
+    }
+    .mdl-textfield__expandable-holder{
+        max-width:500px !important; 
+    }
+  #stack-demo {
+                width: 160px;
+                height: 200px;
+                top: -211px;
+                left: -11px;
+                background-color: #f9f9f9;
+                border-radius: 3px;
+                position: relative;
+                box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .24), 0 1px 18px 0 rgba(0, 0, 0, .22), 0 3px 5px -1px rgba(0, 0, 0, .12);
+            }
+            
+            #stack-demo1 {
+                width: 160px;
+                height: 200px;
+                top: -405px;
+                left: -5px;
+                background-color: #f9f9f9;
+                border-radius: 3px;
+                position: relative;
+                box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .24), 0 1px 18px 0 rgba(0, 0, 0, .22), 0 3px 5px -1px rgba(0, 0, 0, .12);
+            }
+            @media all and (max-width : 800px){
+                #container{
+                    margin:0 auto;
+                    text-align: -webkit-center;
+                }
+            }
+            .dosis{
+                font-family: 'Dosis' , sans-serif;
+            }
+            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+#texts-side-content{
+    font-size:16px;
+    font-weight:600;
+    transition:all 1s ease-in-out;
+    text-align: justify;
+}
